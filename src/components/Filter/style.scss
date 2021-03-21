@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.field__name {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.field__sex {
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+.input {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.field__gender {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.checkboxes__container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.checkbox:first-child {
+  margin-right: 20px;
+}
+
+.checkbox {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-left: 8px;
+}
